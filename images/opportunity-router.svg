@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4361ee"/>
+      <stop offset="100%" style="stop-color:#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <!-- Accent bar -->
+  <rect x="0" y="0" width="1200" height="6" fill="url(#accent)"/>
+  <!-- Grid dots pattern -->
+  <g opacity="0.05">
+    <circle cx="100" cy="100" r="2" fill="#fff"/><circle cx="150" cy="100" r="2" fill="#fff"/>
+    <circle cx="200" cy="100" r="2" fill="#fff"/><circle cx="250" cy="100" r="2" fill="#fff"/>
+    <circle cx="100" cy="150" r="2" fill="#fff"/><circle cx="150" cy="150" r="2" fill="#fff"/>
+    <circle cx="200" cy="150" r="2" fill="#fff"/><circle cx="250" cy="150" r="2" fill="#fff"/>
+    <circle cx="950" cy="430" r="2" fill="#fff"/><circle cx="1000" cy="430" r="2" fill="#fff"/>
+    <circle cx="1050" cy="430" r="2" fill="#fff"/><circle cx="1100" cy="430" r="2" fill="#fff"/>
+    <circle cx="950" cy="480" r="2" fill="#fff"/><circle cx="1000" cy="480" r="2" fill="#fff"/>
+    <circle cx="1050" cy="480" r="2" fill="#fff"/><circle cx="1100" cy="480" r="2" fill="#fff"/>
+    <circle cx="950" cy="530" r="2" fill="#fff"/><circle cx="1000" cy="530" r="2" fill="#fff"/>
+    <circle cx="1050" cy="530" r="2" fill="#fff"/><circle cx="1100" cy="530" r="2" fill="#fff"/>
+  </g>
+  <!-- Phone icon circle -->
+  <circle cx="600" cy="200" r="70" fill="none" stroke="#4361ee" stroke-width="3" opacity="0.3"/>
+  <circle cx="600" cy="200" r="55" fill="#4361ee" opacity="0.15"/>
+  <!-- Phone icon -->
+  <g transform="translate(572, 172)">
+    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10h5v-2h-5c-4.34 0-8-3.66-8-8s3.66-8 8-8 8 3.66 8 8v1.43c0 .79-.71 1.57-1.5 1.57S17 14.22 17 13.43V12c0-2.76-2.24-5-5-5s-5 2.24-5 5 2.24 5 5 5c1.38 0 2.64-.56 3.54-1.47.65.89 1.77 1.47 2.96 1.47 1.97 0 3.5-1.6 3.5-3.57V12c0-5.52-4.48-10-10-10zm0 13c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z" fill="#4361ee" transform="scale(2.2)" />
+  </g>
+  <text x="600" y="195" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="56" fill="#fff" opacity="0.9">&#128222;</text>
+  <!-- Badge -->
+  <rect x="490" y="120" width="220" height="28" rx="14" fill="#4361ee"/>
+  <text x="600" y="139" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" fill="#fff" font-weight="600" letter-spacing="1">MOST POPULAR</text>
+  <!-- Product name -->
+  <text x="600" y="320" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="48" fill="#ffffff" font-weight="700">Opportunity Router</text>
+  <!-- Tagline -->
+  <text x="600" y="370" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" fill="#aaaaaa">Turn missed calls into booked jobs</text>
+  <!-- Price -->
+  <text x="600" y="430" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="36" fill="#4ade80" font-weight="700">$99<tspan font-size="18" fill="#888" font-weight="400">/mo</tspan></text>
+  <!-- Feature pills -->
+  <rect x="160" y="475" width="200" height="36" rx="18" fill="rgba(67,97,238,0.15)"/>
+  <text x="260" y="498" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#4361ee">SMS Follow-up</text>
+  <rect x="380" y="475" width="200" height="36" rx="18" fill="rgba(67,97,238,0.15)"/>
+  <text x="480" y="498" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#4361ee">Lead Capture</text>
+  <rect x="600" y="475" width="200" height="36" rx="18" fill="rgba(67,97,238,0.15)"/>
+  <text x="700" y="498" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#4361ee">HVAC Triage</text>
+  <rect x="820" y="475" width="200" height="36" rx="18" fill="rgba(67,97,238,0.15)"/>
+  <text x="920" y="498" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#4361ee">Real-time Alerts</text>
+  <!-- Brand -->
+  <text x="600" y="580" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" fill="#555">Wertz <tspan fill="#4361ee">Industries</tspan></text>
+</svg>

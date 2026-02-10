@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4361ee"/>
+      <stop offset="100%" style="stop-color:#4ade80"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="6" fill="url(#accent)"/>
+  <!-- Grid dots -->
+  <g opacity="0.04">
+    <circle cx="100" cy="80" r="2" fill="#fff"/><circle cx="150" cy="80" r="2" fill="#fff"/>
+    <circle cx="200" cy="80" r="2" fill="#fff"/><circle cx="250" cy="80" r="2" fill="#fff"/>
+    <circle cx="300" cy="80" r="2" fill="#fff"/><circle cx="100" cy="130" r="2" fill="#fff"/>
+    <circle cx="150" cy="130" r="2" fill="#fff"/><circle cx="200" cy="130" r="2" fill="#fff"/>
+    <circle cx="250" cy="130" r="2" fill="#fff"/><circle cx="300" cy="130" r="2" fill="#fff"/>
+    <circle cx="900" cy="450" r="2" fill="#fff"/><circle cx="950" cy="450" r="2" fill="#fff"/>
+    <circle cx="1000" cy="450" r="2" fill="#fff"/><circle cx="1050" cy="450" r="2" fill="#fff"/>
+    <circle cx="1100" cy="450" r="2" fill="#fff"/><circle cx="900" cy="500" r="2" fill="#fff"/>
+    <circle cx="950" cy="500" r="2" fill="#fff"/><circle cx="1000" cy="500" r="2" fill="#fff"/>
+    <circle cx="1050" cy="500" r="2" fill="#fff"/><circle cx="1100" cy="500" r="2" fill="#fff"/>
+  </g>
+  <!-- Company name -->
+  <text x="600" y="230" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="64" fill="#ffffff" font-weight="700">Wertz <tspan fill="#4361ee">Industries</tspan></text>
+  <!-- Divider -->
+  <rect x="500" y="260" width="200" height="3" rx="1.5" fill="url(#accent)" opacity="0.6"/>
+  <!-- Tagline -->
+  <text x="600" y="315" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="26" fill="#aaaaaa">Tech Solutions for Small Business</text>
+  <!-- Product icons row -->
+  <g transform="translate(0, 370)">
+    <rect x="240" y="0" width="160" height="56" rx="28" fill="rgba(67,97,238,0.12)" stroke="rgba(67,97,238,0.25)" stroke-width="1"/>
+    <text x="280" y="35" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22">&#128222;</text>
+    <text x="310" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#ccc">Router</text>
+    <rect x="420" y="0" width="160" height="56" rx="28" fill="rgba(245,158,11,0.12)" stroke="rgba(245,158,11,0.25)" stroke-width="1"/>
+    <text x="460" y="35" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22">&#11088;</text>
+    <text x="490" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#ccc">Review</text>
+    <rect x="600" y="0" width="160" height="56" rx="28" fill="rgba(6,182,212,0.12)" stroke="rgba(6,182,212,0.25)" stroke-width="1"/>
+    <text x="640" y="35" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22">&#128172;</text>
+    <text x="670" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#ccc">Chat</text>
+    <rect x="780" y="0" width="180" height="56" rx="28" fill="rgba(139,92,246,0.12)" stroke="rgba(139,92,246,0.25)" stroke-width="1"/>
+    <text x="820" y="35" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22">&#9889;</text>
+    <text x="850" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#ccc">Macros</text>
+  </g>
+  <!-- Bottom tagline -->
+  <text x="600" y="520" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" fill="#4ade80">Smart automation starting at $29/mo</text>
+</svg>
