@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Chat | AI Chat Widget for Local Businesses | Wertz Industries</title>
+    <meta name="description" content="Answer customer questions 24/7 with an AI chat widget trained on your services, menu, and FAQs. Captures leads when you're closed and hands off to a human when needed. 5-minute setup, no coding required.">
+    <meta name="keywords" content="AI chat widget, website chatbot, business chat widget, 24/7 customer support, lead capture chatbot, AI customer service, small business chatbot, restaurant chatbot, service business chatbot, automated customer support">
+    <meta name="author" content="Wertz Industries">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://wertzindustries.com/menu-chat.html">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Menu Chat | Your Website, Open 24/7">
+    <meta property="og:description" content="AI chat widget trained on your business. Answers questions, captures leads, and hands off to humans. 5-minute setup, no coding.">
+    <meta property="og:url" content="https://wertzindustries.com/menu-chat.html">
+    <meta property="og:site_name" content="Wertz Industries">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Menu Chat | Your Website, Open 24/7">
+    <meta name="twitter:description" content="AI chat widget trained on your business. Answers questions, captures leads, and hands off to humans. 5-minute setup, no coding.">
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "Organization",
+                "@id": "https://wertzindustries.com/#organization",
+                "name": "Wertz Industries",
+                "url": "https://wertzindustries.com",
+                "email": "hello@wertzindustries.com"
+            },
+            {
+                "@type": "WebPage",
+                "@id": "https://wertzindustries.com/menu-chat.html",
+                "url": "https://wertzindustries.com/menu-chat.html",
+                "name": "Menu Chat | AI Chat Widget for Local Businesses",
+                "description": "AI-powered chat widget that answers customer questions 24/7, captures leads, and hands off to humans when needed.",
+                "isPartOf": {
+                    "@id": "https://wertzindustries.com/#website"
+                }
+            },
+            {
+                "@type": "Product",
+                "name": "Menu Chat",
+                "description": "AI chat widget for local businesses. Trained on your menu, services, and FAQs. Captures leads 24/7 and hands off to a human when needed.",
+                "brand": {
+                    "@id": "https://wertzindustries.com/#organization"
+                },
+                "offers": {
+                    "@type": "AggregateOffer",
+                    "lowPrice": "39.00",
+                    "highPrice": "99.00",
+                    "priceCurrency": "USD",
+                    "offerCount": "3",
+                    "availability": "https://schema.org/InStock",
+                    "url": "https://wertzindustries.com/menu-chat.html#pricing"
+                }
+            },
+            {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://wertzindustries.com/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Products",
+                        "item": "https://wertzindustries.com/products.html"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "Menu Chat",
+                        "item": "https://wertzindustries.com/menu-chat.html"
+                    }
+                ]
+            },
+            {
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "How does Menu Chat learn about my business?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "During setup, you provide your website URL, service list, menu, FAQs, hours, and any other info you want the chat to know. The AI ingests it all and uses it to answer customer questions accurately. You can update the knowledge base anytime."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Do I need a developer to install it?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "No. Menu Chat is a single line of code you paste into your website. If you use WordPress, Squarespace, Wix, or similar platforms, we provide one-click install guides. Setup takes about 5 minutes."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "What happens when the AI can't answer a question?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "The chat captures the customer's name, phone number, and question, then notifies you via SMS or email for a personal follow-up. The customer gets a message like 'Great question! Let me have someone get back to you shortly.' Nothing falls through the cracks."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Can I customize how the chat looks?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Yes. You can customize the chat bubble color, position, welcome message, and avatar to match your brand. The widget is designed to look native to your website, not like an afterthought."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Does it capture leads when I'm closed?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Absolutely. That's one of its primary functions. When someone visits your site at 11 PM and asks about pricing or availability, Menu Chat answers what it can and captures their contact info so you can follow up in the morning."
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+    </script>
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #1a1a2e;
+            background: #ffffff;
+        }
+
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+
+        /* Header */
+        header { padding: 20px 0; border-bottom: 1px solid #eee; }
+        .header-inner { display: flex; align-items: center; justify-content: space-between; }
+        .logo { font-size: 1.5rem; font-weight: 700; color: #1a1a2e; text-decoration: none; }
+        .logo span { color: #4361ee; }
+        nav { display: flex; gap: 30px; align-items: center; }
+        nav a { text-decoration: none; color: #555; font-weight: 500; font-size: 0.95rem; transition: color 0.2s; }
+        nav a:hover, nav a.active { color: #4361ee; }
+
+        /* Hero */
+        .hero { padding: 100px 0 80px; text-align: center; background: linear-gradient(135deg, #f8f9ff 0%, #e8ecff 100%); }
+        .hero-label { display: inline-block; background: rgba(67,97,238,0.1); color: #4361ee; padding: 6px 18px; border-radius: 20px; font-size: 0.85rem; font-weight: 600; margin-bottom: 24px; letter-spacing: 0.3px; }
+        .hero h1 { font-size: 3.2rem; margin-bottom: 20px; color: #1a1a2e; line-height: 1.15; max-width: 800px; margin-left: auto; margin-right: auto; }
+        .hero h1 span { color: #4361ee; }
+        .hero p { font-size: 1.3rem; color: #555; max-width: 640px; margin: 0 auto 40px; }
+        .hero-ctas { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+        .cta-button { display: inline-block; background: #4361ee; color: white; padding: 16px 40px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 1.1rem; transition: transform 0.2s, box-shadow 0.2s; }
+        .cta-button:hover { transform: translateY(-2px); box-shadow: 0 10px 30px rgba(67,97,238,0.3); }
+        .cta-secondary { display: inline-block; background: transparent; color: #4361ee; padding: 16px 40px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 1.1rem; border: 2px solid #4361ee; transition: background 0.2s, color 0.2s; }
+        .cta-secondary:hover { background: #4361ee; color: white; }
+
+        .hero-stats { display: flex; justify-content: center; gap: 60px; margin-top: 60px; padding-top: 40px; border-top: 1px solid rgba(67,97,238,0.15); }
+        .hero-stat { text-align: center; }
+        .hero-stat-number { font-size: 2.2rem; font-weight: 800; color: #4361ee; line-height: 1; }
+        .hero-stat-label { font-size: 0.9rem; color: #666; margin-top: 6px; }
+
+        /* Problem */
+        .problem { padding: 80px 0; }
+        .problem h2 { text-align: center; font-size: 2rem; margin-bottom: 20px; }
+        .problem > .container > p { text-align: center; color: #666; max-width: 640px; margin: 0 auto 50px; font-size: 1.1rem; }
+        .problem-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; }
+        .problem-card { background: #fff8f8; border: 1px solid #ffe0e0; border-radius: 12px; padding: 30px; text-align: center; }
+        .problem-card .problem-icon { font-size: 2.5rem; margin-bottom: 15px; }
+        .problem-card h3 { font-size: 1.2rem; margin-bottom: 10px; color: #c0392b; }
+        .problem-card p { color: #666; font-size: 0.95rem; }
+
+        /* How It Works */
+        .how-it-works { padding: 80px 0; background: #f8f9ff; }
+        .how-it-works h2 { text-align: center; font-size: 2rem; margin-bottom: 16px; }
+        .how-it-works > .container > p { text-align: center; color: #666; max-width: 600px; margin: 0 auto 60px; font-size: 1.1rem; }
+        .steps { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; position: relative; }
+        .step { text-align: center; position: relative; }
+        .step-number { display: inline-flex; align-items: center; justify-content: center; width: 56px; height: 56px; background: #4361ee; color: white; border-radius: 50%; font-size: 1.4rem; font-weight: 700; margin-bottom: 20px; }
+        .step h3 { font-size: 1.1rem; margin-bottom: 8px; color: #1a1a2e; }
+        .step p { color: #666; font-size: 0.9rem; }
+        .step-connector { position: absolute; top: 28px; left: calc(50% + 36px); width: calc(100% - 72px); height: 2px; background: repeating-linear-gradient(90deg, #4361ee 0, #4361ee 6px, transparent 6px, transparent 12px); }
+        .step:last-child .step-connector { display: none; }
+
+        /* Demo */
+        .demo { padding: 80px 0; }
+        .demo h2 { text-align: center; font-size: 2rem; margin-bottom: 16px; }
+        .demo > .container > p { text-align: center; color: #666; max-width: 600px; margin: 0 auto 50px; font-size: 1.1rem; }
+        .demo-layout { display: grid; grid-template-columns: 380px 1fr; gap: 60px; align-items: center; }
+
+        /* Chat Widget Mock */
+        .chat-frame { background: #ffffff; border-radius: 16px; box-shadow: 0 20px 60px rgba(0,0,0,0.12); overflow: hidden; border: 1px solid #e8ecff; }
+        .chat-header { background: #4361ee; color: white; padding: 18px 20px; display: flex; align-items: center; gap: 12px; }
+        .chat-header-dot { width: 10px; height: 10px; background: #4ade80; border-radius: 50%; flex-shrink: 0; }
+        .chat-header-text { font-weight: 600; font-size: 0.95rem; }
+        .chat-header-sub { font-size: 0.8rem; opacity: 0.8; font-weight: 400; }
+        .chat-body { padding: 20px 16px; min-height: 380px; background: #f8f9ff; display: flex; flex-direction: column; gap: 12px; }
+        .chat-msg { max-width: 82%; padding: 10px 14px; border-radius: 14px; font-size: 0.88rem; line-height: 1.45; word-wrap: break-word; }
+        .chat-bot { background: #ffffff; color: #1a1a2e; border: 1px solid #e8ecff; border-bottom-left-radius: 4px; margin-right: auto; }
+        .chat-user { background: #4361ee; color: white; border-bottom-right-radius: 4px; margin-left: auto; }
+        .chat-input { display: flex; gap: 8px; padding: 14px 16px; border-top: 1px solid #e8ecff; background: white; }
+        .chat-input-field { flex: 1; background: #f8f9ff; border: 1px solid #e8ecff; border-radius: 20px; padding: 10px 16px; font-size: 0.88rem; color: #888; font-family: inherit; }
+        .chat-input-btn { width: 40px; height: 40px; background: #4361ee; border: none; border-radius: 50%; color: white; font-size: 1.1rem; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+
+        .demo-points { list-style: none; }
+        .demo-points li { display: flex; align-items: flex-start; gap: 16px; margin-bottom: 28px; }
+        .demo-points li .point-icon { flex-shrink: 0; width: 44px; height: 44px; background: rgba(67,97,238,0.1); border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 1.3rem; }
+        .demo-points li h4 { font-size: 1.05rem; margin-bottom: 4px; color: #1a1a2e; }
+        .demo-points li p { color: #666; font-size: 0.95rem; }
+
+        /* Use Cases */
+        .use-cases { padding: 80px 0; background: #f8f9ff; }
+        .use-cases h2 { text-align: center; font-size: 2rem; margin-bottom: 16px; }
+        .use-cases > .container > p { text-align: center; color: #666; max-width: 600px; margin: 0 auto 50px; font-size: 1.1rem; }
+        .use-case-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; }
+        .use-case-card { background: white; border: 1px solid #e8ecff; border-radius: 12px; padding: 30px; text-align: center; transition: transform 0.2s, box-shadow 0.2s; }
+        .use-case-card:hover { transform: translateY(-4px); box-shadow: 0 12px 40px rgba(67,97,238,0.08); }
+        .use-case-card .uc-icon { font-size: 2.5rem; margin-bottom: 15px; }
+        .use-case-card h3 { font-size: 1.15rem; margin-bottom: 10px; color: #1a1a2e; }
+        .use-case-card p { color: #666; font-size: 0.92rem; }
+        .use-case-card .uc-examples { margin-top: 16px; text-align: left; }
+        .use-case-card .uc-examples li { padding: 4px 0; color: #555; font-size: 0.85rem; list-style: none; display: flex; align-items: flex-start; gap: 8px; }
+        .use-case-card .uc-examples li::before { content: "\2713"; color: #4ade80; font-weight: 700; flex-shrink: 0; }
+
+        /* Features */
+        .features { padding: 80px 0; background: #1a1a2e; color: white; }
+        .features h2 { text-align: center; font-size: 2rem; margin-bottom: 16px; }
+        .features > .container > p { text-align: center; color: #aaa; max-width: 600px; margin: 0 auto 50px; }
+        .feature-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; }
+        .feature-card { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.08); border-radius: 12px; padding: 30px; }
+        .feature-card .feat-icon { font-size: 2rem; margin-bottom: 16px; }
+        .feature-card h3 { font-size: 1.15rem; margin-bottom: 8px; color: white; }
+        .feature-card p { color: #aaa; font-size: 0.95rem; }
+
+        /* Pricing */
+        .pricing { padding: 80px 0; }
+        .pricing h2 { text-align: center; font-size: 2rem; margin-bottom: 16px; }
+        .pricing > .container > p { text-align: center; color: #666; max-width: 600px; margin: 0 auto 50px; }
+        .pricing-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; max-width: 960px; margin: 0 auto 40px; }
+        .pricing-card { background: white; border: 1px solid #e8ecff; border-radius: 12px; padding: 35px 30px; text-align: center; transition: transform 0.2s, box-shadow 0.2s; }
+        .pricing-card:hover { transform: translateY(-4px); box-shadow: 0 12px 40px rgba(67,97,238,0.1); }
+        .pricing-card.featured-plan { border: 2px solid #4361ee; position: relative; }
+        .pricing-card .plan-badge { position: absolute; top: -13px; left: 50%; transform: translateX(-50%); background: #4361ee; color: white; padding: 4px 18px; border-radius: 20px; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; white-space: nowrap; }
+        .pricing-card h3 { font-size: 1.2rem; margin-bottom: 8px; color: #1a1a2e; }
+        .pricing-card .plan-price { font-size: 2.5rem; font-weight: 800; color: #4361ee; margin-bottom: 4px; }
+        .pricing-card .plan-price small { font-size: 1rem; font-weight: 400; color: #888; }
+        .pricing-card .plan-desc { color: #888; font-size: 0.9rem; margin-bottom: 24px; }
+        .pricing-card ul { list-style: none; text-align: left; margin-bottom: 28px; }
+        .pricing-card ul li { padding: 7px 0; color: #555; font-size: 0.92rem; display: flex; align-items: flex-start; gap: 10px; }
+        .pricing-card ul li::before { content: "\2713"; color: #4ade80; font-weight: 700; flex-shrink: 0; }
+        .pricing-card .plan-cta { display: block; text-align: center; padding: 14px 24px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 1rem; transition: transform 0.2s, box-shadow 0.2s; }
+        .pricing-card .plan-cta-primary { background: #4361ee; color: white; }
+        .pricing-card .plan-cta-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 25px rgba(67,97,238,0.3); }
+        .pricing-card .plan-cta-outline { border: 2px solid #4361ee; color: #4361ee; background: transparent; }
+        .pricing-card .plan-cta-outline:hover { background: #4361ee; color: white; }
+        .pricing-guarantee { text-align: center; color: #666; font-size: 0.95rem; max-width: 600px; margin: 0 auto; }
+        .pricing-guarantee strong { color: #1a1a2e; }
+
+        /* FAQ */
+        .faq { padding: 80px 0; background: #f8f9ff; }
+        .faq h2 { text-align: center; font-size: 2rem; margin-bottom: 50px; }
+        .faq-list { max-width: 760px; margin: 0 auto; }
+        .faq-item { border-bottom: 1px solid #dde1f0; padding: 24px 0; }
+        .faq-item:first-child { border-top: 1px solid #dde1f0; }
+        .faq-question { font-size: 1.1rem; font-weight: 600; color: #1a1a2e; cursor: pointer; display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+        .faq-question::after { content: "+"; font-size: 1.5rem; color: #4361ee; flex-shrink: 0; transition: transform 0.2s; }
+        .faq-item.open .faq-question::after { transform: rotate(45deg); }
+        .faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.3s ease, padding 0.3s ease; }
+        .faq-item.open .faq-answer { max-height: 300px; padding-top: 16px; }
+        .faq-answer p { color: #666; font-size: 0.95rem; line-height: 1.7; }
+
+        /* Final CTA */
+        .final-cta { padding: 100px 0; background: #1a1a2e; color: white; text-align: center; }
+        .final-cta h2 { font-size: 2.4rem; margin-bottom: 16px; }
+        .final-cta p { color: #aaa; font-size: 1.15rem; max-width: 560px; margin: 0 auto 40px; }
+        .final-cta .cta-button { background: #4ade80; color: #1a1a2e; font-size: 1.15rem; padding: 18px 48px; }
+        .final-cta .cta-button:hover { box-shadow: 0 10px 30px rgba(74,222,128,0.3); }
+        .final-cta .cta-subtext { margin-top: 16px; color: #666; font-size: 0.85rem; }
+
+        footer { padding: 30px 0; border-top: 1px solid #eee; text-align: center; color: #888; font-size: 0.9rem; }
+
+        /* Mobile */
+        @media (max-width: 1024px) {
+            .demo-layout { grid-template-columns: 1fr; gap: 40px; }
+            .chat-frame { max-width: 380px; margin: 0 auto; }
+        }
+        @media (max-width: 768px) {
+            .header-inner { flex-direction: column; gap: 12px; }
+            nav { gap: 20px; flex-wrap: wrap; justify-content: center; }
+            .hero { padding: 60px 0; }
+            .hero h1 { font-size: 2.2rem; }
+            .hero p { font-size: 1.1rem; }
+            .hero-stats { flex-direction: column; gap: 24px; }
+            .problem-grid, .feature-grid, .pricing-grid, .use-case-grid { grid-template-columns: 1fr; }
+            .steps { grid-template-columns: 1fr; gap: 32px; }
+            .step-connector { display: none; }
+            .final-cta h2 { font-size: 1.8rem; }
+            h2 { font-size: 1.6rem !important; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <a href="index.html" class="logo">Wertz <span>Industries</span></a>
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="products.html">Products</a>
+                    <a href="opportunity-router.html">Opportunity Router</a>
+                    <a href="review-reply.html">Review Reply</a>
+                    <a href="menu-chat.html" class="active">Menu Chat</a>
+                    <a href="support-macros.html">Support Macros</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-label">AI Chat for Local Businesses</div>
+            <h1>Your Website Never <span>Sleeps</span>. Now It Can Talk, Too.</h1>
+            <p>Menu Chat is an AI chat widget trained on your business. It answers customer questions 24/7, captures leads when you're closed, and hands off to a human when it needs to.</p>
+            <div class="hero-ctas">
+                <a href="#pricing" class="cta-button">See Pricing</a>
+                <a href="#how-it-works" class="cta-secondary">How It Works</a>
+            </div>
+            <div class="hero-stats">
+                <div class="hero-stat">
+                    <div class="hero-stat-number">5 min</div>
+                    <div class="hero-stat-label">setup, no coding required</div>
+                </div>
+                <div class="hero-stat">
+                    <div class="hero-stat-number">24/7</div>
+                    <div class="hero-stat-label">answers questions while you sleep</div>
+                </div>
+                <div class="hero-stat">
+                    <div class="hero-stat-number">3x</div>
+                    <div class="hero-stat-label">more leads from after-hours visitors</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem -->
+    <section class="problem">
+        <div class="container">
+            <h2>Your Website Visitors Have Questions. Nobody's Answering.</h2>
+            <p>Customers visit your site at all hours. They want to know your prices, availability, and service area. If they can't find answers in 30 seconds, they leave.</p>
+            <div class="problem-grid">
+                <div class="problem-card">
+                    <div class="problem-icon">&#128564;</div>
+                    <h3>After-Hours Dead End</h3>
+                    <p>53% of website visits happen outside business hours. Your site says "Call us!" but nobody's there to pick up. That visitor calls your competitor instead.</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">&#128269;</div>
+                    <h3>Buried Information</h3>
+                    <p>Your prices, service area, and hours are on the site somewhere -- but visitors won't dig through 5 pages to find them. They want answers now.</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">&#128683;</div>
+                    <h3>Lost Leads</h3>
+                    <p>A visitor was ready to book but had one quick question. No chat, no answer, no booking. You never even knew they were there.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <h2>How Menu Chat Works</h2>
+            <p>From install to answering real questions in under 5 minutes. No developers, no coding, no complexity.</p>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-connector"></div>
+                    <div class="step-number">1</div>
+                    <h3>Train It</h3>
+                    <p>Give it your website, services, menu, FAQs, hours, and service area. The AI learns your business in minutes.</p>
+                </div>
+                <div class="step">
+                    <div class="step-connector"></div>
+                    <div class="step-number">2</div>
+                    <h3>Install It</h3>
+                    <p>Paste one line of code into your website. Works with WordPress, Squarespace, Wix, and any HTML site.</p>
+                </div>
+                <div class="step">
+                    <div class="step-connector"></div>
+                    <div class="step-number">3</div>
+                    <h3>It Answers</h3>
+                    <p>Customers ask questions and get instant, accurate answers. Pricing, availability, service area -- handled automatically.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Leads Captured</h3>
+                    <p>When it can't answer or the customer wants to book, it captures their info and notifies you immediately.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo -->
+    <section class="demo">
+        <div class="container">
+            <h2>See the Chat in Action</h2>
+            <p>Here's what your customers see. Fast, helpful, and always on.</p>
+            <div class="demo-layout">
+                <div class="chat-frame">
+                    <div class="chat-header">
+                        <div class="chat-header-dot"></div>
+                        <div>
+                            <div class="chat-header-text">ABC Plumbing</div>
+                            <div class="chat-header-sub">Typically replies instantly</div>
+                        </div>
+                    </div>
+                    <div class="chat-body">
+                        <div class="chat-msg chat-bot">Hi! I'm ABC Plumbing's assistant. I can help with pricing, services, scheduling, and more. What can I help you with?</div>
+                        <div class="chat-msg chat-user">do you fix garbage disposals?</div>
+                        <div class="chat-msg chat-bot">Yes! We repair and replace all major brands of garbage disposals. A standard repair starts at $95, and a full replacement runs $175-$350 depending on the unit. Would you like to schedule a visit?</div>
+                        <div class="chat-msg chat-user">what about Saturday?</div>
+                        <div class="chat-msg chat-bot">We do have Saturday appointments available! Our Saturday hours are 8 AM - 2 PM. To get you on the schedule, I just need your name and phone number -- someone will confirm your time within the hour.</div>
+                        <div class="chat-msg chat-user">Mike Davis, 602-555-1234</div>
+                        <div class="chat-msg chat-bot">Got it, Mike! I've sent your info to our team. Expect a call or text shortly to confirm your Saturday appointment. Thanks for choosing ABC Plumbing!</div>
+                    </div>
+                    <div class="chat-input">
+                        <div class="chat-input-field">Type a message...</div>
+                        <div class="chat-input-btn">&#8593;</div>
+                    </div>
+                </div>
+                <ul class="demo-points">
+                    <li>
+                        <div class="point-icon">&#129504;</div>
+                        <div>
+                            <h4>Knows Your Business</h4>
+                            <p>Trained on your actual services, pricing, hours, and service area. Answers with real information, not generic filler.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="point-icon">&#128172;</div>
+                        <div>
+                            <h4>Natural Conversation</h4>
+                            <p>Customers type normally -- typos, slang, shorthand. The AI understands context and responds naturally, not like a phone tree.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="point-icon">&#128229;</div>
+                        <div>
+                            <h4>Lead Capture Built In</h4>
+                            <p>When a customer is ready to book or needs human help, the chat captures their name and phone and alerts your team instantly.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="point-icon">&#128101;</div>
+                        <div>
+                            <h4>Human Handoff</h4>
+                            <p>For complex questions the AI can't handle, it seamlessly hands off to you with full conversation context. Nothing is lost.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Use Cases -->
+    <section class="use-cases">
+        <div class="container">
+            <h2>Built for Every Local Business</h2>
+            <p>Menu Chat works anywhere customers have questions and you're not always there to answer them.</p>
+            <div class="use-case-grid">
+                <div class="use-case-card">
+                    <div class="uc-icon">&#128295;</div>
+                    <h3>Home Service Companies</h3>
+                    <p>HVAC, plumbing, electrical, roofing. Customers want to know if you cover their area, what a repair costs, and when you can come.</p>
+                    <ul class="uc-examples">
+                        <li>"Do you service Scottsdale?"</li>
+                        <li>"How much to replace a water heater?"</li>
+                        <li>"Do you have weekend appointments?"</li>
+                    </ul>
+                </div>
+                <div class="use-case-card">
+                    <div class="uc-icon">&#127860;</div>
+                    <h3>Restaurants & Food Service</h3>
+                    <p>Diners want your menu, hours, whether you take reservations, and if you can handle dietary restrictions.</p>
+                    <ul class="uc-examples">
+                        <li>"Do you have gluten-free options?"</li>
+                        <li>"Can I make a reservation for 8?"</li>
+                        <li>"What time do you close on Sunday?"</li>
+                    </ul>
+                </div>
+                <div class="use-case-card">
+                    <div class="uc-icon">&#128188;</div>
+                    <h3>Professional Services</h3>
+                    <p>Law firms, accountants, salons, fitness studios. Clients want to know your rates, availability, and specializations.</p>
+                    <ul class="uc-examples">
+                        <li>"Do you offer free consultations?"</li>
+                        <li>"What are your Saturday hours?"</li>
+                        <li>"Do you specialize in small business tax?"</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features">
+        <div class="container">
+            <h2>Small Widget. Big Impact.</h2>
+            <p>Everything you need to turn website visitors into customers -- nothing you don't.</p>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feat-icon">&#127912;</div>
+                    <h3>Customizable Widget</h3>
+                    <p>Match your brand colors, position, welcome message, and avatar. Looks native to your site, not like an afterthought.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feat-icon">&#128218;</div>
+                    <h3>Knowledge Base</h3>
+                    <p>Train the AI on your website, PDFs, menus, FAQs, or plain text. Update anytime. It only answers what you teach it.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feat-icon">&#128229;</div>
+                    <h3>Lead Notifications</h3>
+                    <p>Get an SMS or email the moment a visitor shares their contact info. Full conversation transcript included.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feat-icon">&#128101;</div>
+                    <h3>Human Handoff</h3>
+                    <p>The AI knows its limits. When it can't help, it captures the question and customer info for your team to follow up.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feat-icon">&#128202;</div>
+                    <h3>Analytics</h3>
+                    <p>See what customers ask most, peak chat hours, conversion rate, and most common unanswered questions so you can improve.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feat-icon">&#128274;</div>
+                    <h3>Privacy-First</h3>
+                    <p>No tracking cookies. No data sold. Conversations are stored securely and only accessible to you. GDPR-friendly by design.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <h2>Simple, Transparent Pricing</h2>
+            <p>No per-conversation fees. No surprise charges. Just a flat monthly rate.</p>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Starter</h3>
+                    <div class="plan-price">$39 <small>/mo</small></div>
+                    <div class="plan-desc">One site, getting started</div>
+                    <ul>
+                        <li>1 website</li>
+                        <li>AI chat widget</li>
+                        <li>Train on your content</li>
+                        <li>Lead capture + notifications</li>
+                        <li>Up to 200 conversations/month</li>
+                        <li>Email support</li>
+                    </ul>
+                    <a href="contact.html" class="plan-cta plan-cta-outline">Get Started</a>
+                </div>
+                <div class="pricing-card featured-plan">
+                    <div class="plan-badge">Most Popular</div>
+                    <h3>Professional</h3>
+                    <div class="plan-price">$69 <small>/mo</small></div>
+                    <div class="plan-desc">Full features, growing business</div>
+                    <ul>
+                        <li>1 website</li>
+                        <li>Customizable widget design</li>
+                        <li>Human handoff</li>
+                        <li>Analytics dashboard</li>
+                        <li>Up to 1,000 conversations/month</li>
+                        <li>Priority support</li>
+                    </ul>
+                    <a href="contact.html" class="plan-cta plan-cta-primary">Get Started</a>
+                </div>
+                <div class="pricing-card">
+                    <h3>Multi-Site</h3>
+                    <div class="plan-price">$99 <small>/mo</small></div>
+                    <div class="plan-desc">Multiple locations or brands</div>
+                    <ul>
+                        <li>Up to 5 websites</li>
+                        <li>Per-site knowledge base</li>
+                        <li>All Professional features</li>
+                        <li>Consolidated dashboard</li>
+                        <li>Unlimited conversations</li>
+                        <li>Dedicated onboarding</li>
+                    </ul>
+                    <a href="contact.html" class="plan-cta plan-cta-outline">Contact Sales</a>
+                </div>
+            </div>
+            <p class="pricing-guarantee"><strong>7-day free trial on all plans.</strong> Install the widget, see real conversations, and decide if it's worth it. No credit card required.</p>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-list">
+                <div class="faq-item open">
+                    <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">How does Menu Chat learn about my business?</div>
+                    <div class="faq-answer"><p>During setup, you provide your website URL, service list, menu, FAQs, hours, and any other info you want the chat to know. The AI ingests it all and uses it to answer customer questions accurately. You can update the knowledge base anytime.</p></div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">Do I need a developer to install it?</div>
+                    <div class="faq-answer"><p>No. Menu Chat is a single line of code you paste into your website. If you use WordPress, Squarespace, Wix, or similar platforms, we provide one-click install guides. Setup takes about 5 minutes.</p></div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">What happens when the AI can't answer a question?</div>
+                    <div class="faq-answer"><p>The chat captures the customer's name, phone number, and question, then notifies you via SMS or email for a personal follow-up. The customer sees a message like "Great question! Let me have someone get back to you shortly." Nothing falls through the cracks.</p></div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">Can I customize how the chat looks?</div>
+                    <div class="faq-answer"><p>Yes. You can customize the chat bubble color, position, welcome message, and avatar to match your brand. The widget is designed to look native to your website, not like an afterthought.</p></div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">Does it capture leads when I'm closed?</div>
+                    <div class="faq-answer"><p>Absolutely. That's one of its primary functions. When someone visits your site at 11 PM and asks about pricing or availability, Menu Chat answers what it can and captures their contact info so you can follow up in the morning.</p></div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">Will it make things up or give wrong answers?</div>
+                    <div class="faq-answer"><p>Menu Chat only answers based on the information you provide. If it doesn't know something, it says so and offers to connect the customer with your team. It doesn't hallucinate or invent facts about your business.</p></div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question" onclick="this.parentElement.classList.toggle('open')">Is there a contract?</div>
+                    <div class="faq-answer"><p>No. Month-to-month, cancel anytime. Every plan starts with a 7-day free trial so you can see how it works with real visitors before you pay.</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta">
+        <div class="container">
+            <h2>Your Next Customer Is on Your Website Right Now</h2>
+            <p>They have a question. If nobody answers, they'll find someone who will. Give them Menu Chat.</p>
+            <a href="contact.html" class="cta-button">Start Your Free Trial</a>
+            <p class="cta-subtext">7-day free trial. No credit card required. Live in 5 minutes.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Wertz Industries. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

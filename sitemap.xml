@@ -25,6 +25,18 @@
         <priority>0.9</priority>
     </url>
     <url>
+        <loc>https://wertzindustries.com/menu-chat.html</loc>
+        <lastmod>2026-02-10</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://wertzindustries.com/support-macros.html</loc>
+        <lastmod>2026-02-10</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
         <loc>https://wertzindustries.com/contact.html</loc>
         <lastmod>2026-02-10</lastmod>
         <changefreq>monthly</changefreq>
