@@ -196,6 +196,17 @@
             color: #4361ee;
         }
 
+        .hamburger {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: #1a1a2e;
+            padding: 5px;
+            line-height: 1;
+        }
+
         /* Hero */
         .hero {
             padding: 100px 0 80px;
@@ -1065,13 +1076,29 @@
         }
 
         @media (max-width: 768px) {
+            .hamburger {
+                display: block;
+            }
+
             .header-inner {
-                flex-direction: column;
-                gap: 12px;
+                flex-wrap: wrap;
             }
 
             nav {
-                gap: 20px;
+                display: none;
+                width: 100%;
+                flex-direction: column;
+                gap: 0;
+                padding-top: 15px;
+            }
+
+            nav.nav-open {
+                display: flex;
+            }
+
+            nav a {
+                padding: 12px 0;
+                border-bottom: 1px solid #eee;
             }
 
             .hero {
@@ -1134,6 +1161,7 @@
         <div class="container">
             <div class="header-inner">
                 <a href="index.html" class="logo">Wertz <span>Industries</span></a>
+                <button class="hamburger" aria-label="Menu">&#9776;</button>
                 <nav>
                     <a href="index.html">Home</a>
                     <a href="products.html">Products</a>
@@ -1546,5 +1574,11 @@
             <p>&copy; 2026 Wertz Industries. All rights reserved.</p><p style="margin-top: 10px;"><a href="privacy.html" style="color: #888; text-decoration: none;">Privacy Policy</a> | <a href="terms.html" style="color: #888; text-decoration: none;">Terms of Service</a></p>
         </div>
     </footer>
+    <script>
+        document.querySelector('.hamburger').addEventListener('click', function() {
+            document.querySelector('nav').classList.toggle('nav-open');
+            this.innerHTML = this.innerHTML.trim() === '\u2630' ? '\u2715' : '\u2630';
+        });
+    </script>
 </body>
 </html>
